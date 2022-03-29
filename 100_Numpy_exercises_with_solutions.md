@@ -189,7 +189,7 @@ print(Z)
 
 ```python
 Z = np.random.random((5,5))
-Z = (Z - np.mean (Z)) / (np.std (Z))
+Z = (Z - np.mean (Z)) / (np.std(Z))
 print(Z)
 ```
 #### 23. Create a custom dtype that describes a color as four unsigned bytes (RGBA) (★☆☆)
